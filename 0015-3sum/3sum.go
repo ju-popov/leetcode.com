@@ -5,37 +5,6 @@ import (
 	"sort"
 )
 
-func twoSum(nums []int, targetSum int) [][]int {
-	result := make([][]int, 0)
-
-	left := 0
-	right := len(nums) - 1
-
-	prevLeftValue := 0
-	for (left < right) && (nums[left] <= targetSum) {
-		leftValue := nums[left]
-
-		if (left == 0) || (leftValue != prevLeftValue) {
-			rightValue := nums[right]
-			sum := leftValue + rightValue
-
-			if sum > targetSum {
-				right--
-				continue
-			}
-
-			if sum == targetSum {
-				result = append(result, []int{leftValue, rightValue})
-			}
-		}
-
-		prevLeftValue = leftValue
-		left++
-	}
-
-	return result
-}
-
 func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
 
@@ -45,17 +14,33 @@ func threeSum(nums []int) [][]int {
 		return result
 	}
 
-	prevTargetSum := 0
-	for index := 0; index < len(nums)-2; index++ {
-		targetSum := -nums[index]
-		if (index == 0) || (targetSum != prevTargetSum) {
-			results := twoSum(nums[index+1:], targetSum)
-			for _, value := range results {
-				result = append(result, []int{nums[index], value[0], value[1]})
-			}
+	for index := 0; (index < len(nums)-2) && (nums[index] <= 0); index++ {
+		if (index != 0) && (nums[index] == nums[index-1]) {
+			continue
 		}
 
-		prevTargetSum = targetSum
+		left := index + 1
+		right := len(nums) - 1
+		targetSum := -nums[index]
+
+		for (left < right) && (nums[left] <= targetSum) {
+			if (left != index+1) && (nums[left] == nums[left-1]) {
+				left++
+				continue
+			}
+
+			sum := nums[left] + nums[right]
+			if sum > targetSum {
+				right--
+				continue
+			}
+
+			if sum == targetSum {
+				result = append(result, []int{nums[index], nums[left], nums[right]})
+			}
+
+			left++
+		}
 	}
 
 	return result
