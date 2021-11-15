@@ -7,6 +7,7 @@ import (
 
 func calcResult(n1 int, n2 int, n3 int, target int) (int, int) {
 	total := n1 + n2 + n3
+
 	offset := target - total
 	if offset < 0 {
 		offset = -offset
@@ -35,6 +36,11 @@ func threeSumClosest(nums []int, target int) int {
 			}
 
 			sum, sumOffset := calcResult(nums[index], nums[left], nums[right], target)
+
+			if sumOffset == 0 {
+				return sum
+			}
+
 			if sumOffset < resultOffset {
 				result, resultOffset = sum, sumOffset
 			}
@@ -52,8 +58,7 @@ func threeSumClosest(nums []int, target int) int {
 }
 
 func main() {
-	// threeSumClosest([]int{-1, 2, 1, -4}, 1)
-	// fmt.Println(threeSumClosest([]int{-1, 2, 1, -4}, 1)) // 2
-	// fmt.Println(threeSumClosest([]int{0, 0, 0}, 1))      // 0
+	fmt.Println(threeSumClosest([]int{-1, 2, 1, -4}, 1))         // 2
+	fmt.Println(threeSumClosest([]int{0, 0, 0}, 1))              // 0
 	fmt.Println(threeSumClosest([]int{-100, -98, -2, -1}, -101)) // -101
 }
