@@ -8,35 +8,35 @@ import (
 func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
 
+	target := 0
 	result := make([][]int, 0)
 
 	if len(nums) < 3 {
 		return result
 	}
 
-	for index := 0; (index < len(nums)-2) && (nums[index] <= 0); index++ {
+	for index := 0; index < len(nums)-2; index++ {
 		if (index != 0) && (nums[index] == nums[index-1]) {
 			continue
 		}
 
 		left := index + 1
 		right := len(nums) - 1
-		targetSum := -nums[index]
 
-		for (left < right) && (nums[left] <= targetSum) {
+		for left < right {
 			if (left != index+1) && (nums[left] == nums[left-1]) {
 				left++
 				continue
 			}
 
-			sum := nums[left] + nums[right]
-			if sum > targetSum {
-				right--
-				continue
+			sum := nums[index] + nums[left] + nums[right]
+			if sum == target {
+				result = append(result, []int{nums[index], nums[left], nums[right]})
 			}
 
-			if sum == targetSum {
-				result = append(result, []int{nums[index], nums[left], nums[right]})
+			if sum > target {
+				right--
+				continue
 			}
 
 			left++
