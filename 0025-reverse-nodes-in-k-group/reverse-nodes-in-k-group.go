@@ -42,11 +42,13 @@ func reverseKGroup(head *ListNode, k int) *ListNode {
 		return head
 	}
 
+	var prev *ListNode
 	current := head
-	nodes := make([]*ListNode, k+1)
+	nodes := make([]*ListNode, k)
 
 	for {
-		for i := 1; i <= k; i++ {
+		// Load next nodes for reversal
+		for i := 0; i < k; i++ {
 			if current == nil {
 				return head
 			}
@@ -55,18 +57,25 @@ func reverseKGroup(head *ListNode, k int) *ListNode {
 			current = current.Next
 		}
 
-		if nodes[0] == nil {
-			head = nodes[k]
+		// Attach new nodes to previous
+		if prev == nil {
+			// Change head if needed
+			head = nodes[k-1]
 		} else {
-			nodes[0].Next = nodes[k]
+			prev.Next = nodes[k-1]
 		}
 
-		nodes[0] = nodes[1]
-		nodes[1].Next = current
-
-		for i := 2; i <= k; i++ {
-			nodes[i].Next = nodes[i-1]
+		// Reverse pointers
+		for i := 0; i < k; i++ {
+			if i == 0 {
+				nodes[i].Next = current
+			} else {
+				nodes[i].Next = nodes[i-1]
+			}
 		}
+
+		// Previous is now the last element
+		prev = nodes[0]
 	}
 }
 
