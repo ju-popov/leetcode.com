@@ -37,33 +37,44 @@ func (head *ListNode) String() string {
  *     Next *ListNode
  * }
  */
-
-// prev -> current1 -> current2 -> next
-// prev -> current2 -> current1 -> next
-
 func swapPairs(head *ListNode) *ListNode {
-	current1 := head
+	const k = 2 // Whap is pairs
 
 	var prev *ListNode
-	for (current1 != nil) && (current1.Next != nil) {
-		current2 := current1.Next
-		next := current2.Next
+	current := head
+	nodes := make([]*ListNode, k)
 
-		if prev == nil {
-			head = current2
-		} else {
-			prev.Next = current2
+	for {
+		// Load next nodes for reversal
+		for i := 0; i < k; i++ {
+			if current == nil {
+				return head
+			}
+
+			nodes[i] = current
+			current = current.Next
 		}
 
-		prev = current1
+		// Attach new nodes to previous
+		if prev == nil {
+			// Change head if needed
+			head = nodes[k-1]
+		} else {
+			prev.Next = nodes[k-1]
+		}
 
-		current2.Next = current1
-		current1.Next = next
+		// Reverse pointers
+		for i := 0; i < k; i++ {
+			if i == 0 {
+				nodes[i].Next = current
+			} else {
+				nodes[i].Next = nodes[i-1]
+			}
+		}
 
-		current1 = next
+		// Previous is now the last element
+		prev = nodes[0]
 	}
-
-	return head
 }
 
 func main() {
