@@ -1,11 +1,32 @@
 package main
 
+/*
+
+21. Merge Two Sorted Lists
+
+https://leetcode.com/problems/merge-two-sorted-lists/
+
+Approach 2: Iteration
+
+Complexity Analysis
+
+Time complexity : O(n+m)
+
+Because exactly one of l1 and l2 is incremented on each loop iteration, the
+while loop runs for a number of iterations equal to the sum of the lengths of
+the two lists. All other work is constant, so the overall complexity is linear.
+
+Space complexity : O(1)
+
+The iterative approach only allocates a few pointers, so it has a constant
+overall memory footprint.
+
+*/
+
 import (
 	"bytes"
 	"fmt"
 )
-
-// https://leetcode.com/problems/merge-two-sorted-lists/
 
 type ListNode struct {
 	Val  int
@@ -30,13 +51,6 @@ func (head *ListNode) String() string {
 	return buf.String()
 }
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	dummyNode := &ListNode{}
 	last := dummyNode
@@ -83,5 +97,5 @@ func main() {
 		},
 	}
 
-	fmt.Println(mergeTwoLists(inputList1, inputList2))
+	fmt.Println(mergeTwoLists(inputList1, inputList2)) // 1 -> 1 -> 2 -> 3 -> 4 -> 4
 }
