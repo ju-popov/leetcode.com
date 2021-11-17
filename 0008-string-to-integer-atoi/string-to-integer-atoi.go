@@ -1,9 +1,19 @@
 package main
 
+/*
+
+8. String to Integer (atoi)
+
+https://leetcode.com/problems/string-to-integer-atoi/
+
+*/
+
 import "fmt"
 
-const minInt32 = -2147483648
-const maxInt32 = 2147483647
+const (
+	maxInt32 = 2147483647
+	minInt32 = -2147483648
+)
 
 func myAtoi(s string) int {
 	left := 0
@@ -36,19 +46,25 @@ func myAtoi(s string) int {
 		if positive {
 			if result > maxInt32/10 {
 				result = maxInt32
+
 				break
 			}
+
 			if (result == maxInt32/10) && (digit > maxInt32%10) {
 				result = maxInt32
+
 				break
 			}
 		} else {
 			if result > -minInt32/10 {
 				result = minInt32
+
 				break
 			}
+
 			if (result == -minInt32/10) && (digit > -minInt32%10) {
 				result = minInt32
+
 				break
 			}
 		}
@@ -57,11 +73,11 @@ func myAtoi(s string) int {
 		left++
 	}
 
-	if positive {
-		return int(result)
+	if !positive {
+		result = -result
 	}
 
-	return int(-result)
+	return int(result)
 }
 
 func main() {
