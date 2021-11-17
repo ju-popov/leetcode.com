@@ -1,5 +1,21 @@
 package main
 
+/*
+
+11. Container With Most Water
+
+https://leetcode.com/problems/container-with-most-water/
+
+Approach 2: Two Pointer Approach
+
+Complexity Analysis
+
+Time complexity : O(n). Single pass.
+
+Space complexity : O(1). Constant space is used.
+
+*/
+
 import "fmt"
 
 func minValue(values ...int) int {
@@ -12,24 +28,6 @@ func minValue(values ...int) int {
 	}
 
 	return result
-}
-
-func findNextPos(height []int, left int, right int, biggerThan int, direction bool) int {
-	if direction {
-		for index := left; index <= right; index++ {
-			if height[index] > biggerThan {
-				return index
-			}
-		}
-	} else {
-		for index := right; index >= left; index-- {
-			if height[index] > biggerThan {
-				return index
-			}
-		}
-	}
-
-	return -1
 }
 
 func maxArea(height []int) int {
@@ -49,17 +47,9 @@ func maxArea(height []int) int {
 		}
 
 		if leftValue <= rightValue {
-			if result := findNextPos(height, leftPos+1, rightPos-1, leftValue, true); result >= 0 {
-				leftPos = result
-			} else {
-				break
-			}
+			leftPos++
 		} else {
-			if result := findNextPos(height, leftPos+1, rightPos-1, rightValue, false); result >= 0 {
-				rightPos = result
-			} else {
-				break
-			}
+			rightPos--
 		}
 	}
 
