@@ -1,6 +1,25 @@
 package main
 
-// https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+/*
+
+19. Remove Nth Node From End of List
+
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+Approach 2: One pass algorithm
+
+Complexity Analysis
+
+Time complexity : O(L).
+
+The algorithm makes one traversal of the list of L nodes. Therefore time
+complexity is O(L).
+
+Space complexity : O(1).
+
+We only used constant extra space.
+
+*/
 
 import (
 	"bytes"
@@ -30,40 +49,27 @@ func (head *ListNode) String() string {
 	return buf.String()
 }
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
-	frontNode := head
+	dummy := &ListNode{Next: head}
+	first := dummy
+	second := dummy
 
-	for counter := 0; counter < n; counter++ {
-		if frontNode == nil {
-			return head
+	for counter := 0; counter < n+1; counter++ {
+		if first == nil {
+			return dummy.Next
 		}
 
-		frontNode = frontNode.Next
+		first = first.Next
 	}
 
-	var prevNode *ListNode
-	currentNode := head
-
-	for frontNode != nil {
-		frontNode = frontNode.Next
-		prevNode = currentNode
-		currentNode = currentNode.Next
+	for first != nil {
+		first = first.Next
+		second = second.Next
 	}
 
-	if prevNode == nil {
-		return currentNode.Next
-	}
+	second.Next = second.Next.Next
 
-	prevNode.Next = currentNode.Next
-
-	return head
+	return dummy.Next
 }
 
 func main() {
@@ -83,5 +89,5 @@ func main() {
 		},
 	}
 
-	fmt.Println(removeNthFromEnd(inputList1, 1))
+	fmt.Println(removeNthFromEnd(inputList1, 1)) // 1 -> 2 -> 3 -> 4
 }
