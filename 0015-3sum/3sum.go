@@ -1,5 +1,26 @@
 package main
 
+/*
+
+15. 3Sum
+
+https://leetcode.com/problems/3sum/
+
+Approach 1: Two Pointers
+
+Complexity Analysis
+
+Time Complexity: {O}(n^2).
+
+Sorting the array takes {O}(nlog{n}), so overall complexity is
+{O}(nlog{n} + n^2). This is asymptotically equivalent to {O}(n^2).
+
+Space Complexity: from {O}(log{n}) {O}(n), depending on the implementation of
+the sorting algorithm. For the purpose of complexity analysis, we ignore the
+memory required for the output.
+
+*/
+
 import (
 	"fmt"
 	"sort"
@@ -26,6 +47,7 @@ func threeSum(nums []int) [][]int {
 		for left < right {
 			if (left != index+1) && (nums[left] == nums[left-1]) {
 				left++
+
 				continue
 			}
 
@@ -36,6 +58,7 @@ func threeSum(nums []int) [][]int {
 
 			if sum > target {
 				right--
+
 				continue
 			}
 
