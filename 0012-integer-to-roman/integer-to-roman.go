@@ -1,5 +1,29 @@
 package main
 
+/*
+
+12. Integer to Roman
+
+https://leetcode.com/problems/integer-to-roman/
+
+Approach 1: Greedy
+
+Complexity Analysis
+
+Time complexity : O(1).
+
+As there is a finite set of roman numerals, there is a hard upper limit on how
+many times the loop can iterate. This upper limit is 15 times, and it occurs for
+the number 3888, which has a representation of MMMDCCCLXXXVIII. Therefore, we
+say the time complexity is constant, i.e. O(1).
+
+Space complexity : O(1).
+
+The amount of memory used does not change with the size of the input integer,
+and is therefore constant.
+
+*/
+
 import "fmt"
 
 func intToRoman(num int) string {
@@ -7,67 +31,67 @@ func intToRoman(num int) string {
 
 	for num >= 1000 {
 		result += "M"
-		num = num - 1000
+		num -= 1000
 	}
 
 	for num >= 900 {
 		result += "CM"
-		num = num - 900
+		num -= 900
 	}
 
 	for num >= 500 {
 		result += "D"
-		num = num - 500
+		num -= 500
 	}
 
 	for num >= 400 {
 		result += "CD"
-		num = num - 400
+		num -= 400
 	}
 
 	for num >= 100 {
 		result += "C"
-		num = num - 100
+		num -= 100
 	}
 
 	for num >= 90 {
 		result += "XC"
-		num = num - 90
+		num -= 90
 	}
 
 	for num >= 50 {
 		result += "L"
-		num = num - 50
+		num -= 50
 	}
 
 	for num >= 40 {
 		result += "XL"
-		num = num - 40
+		num -= 40
 	}
 
 	for num >= 10 {
 		result += "X"
-		num = num - 10
+		num -= 10
 	}
 
 	for num >= 9 {
 		result += "IX"
-		num = num - 9
+		num -= 9
 	}
 
 	for num >= 5 {
 		result += "V"
-		num = num - 5
+		num -= 5
 	}
 
 	for num >= 4 {
 		result += "IV"
-		num = num - 4
+		num -= 4
 	}
 
 	for num >= 1 {
 		result += "I"
-		num = num - 1
+		num--
 	}
 
 	return result
