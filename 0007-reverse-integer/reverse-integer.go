@@ -1,9 +1,26 @@
 package main
 
+/*
+
+7. Reverse Integer
+
+https://leetcode.com/problems/reverse-integer/
+
+Approach 1: Pop and Push Digits & Check before Overflow
+
+Complexity Analysis
+
+Time Complexity: O(log(x)). There are roughly log10(x)  digits in x.
+Space Complexity: O(1).
+
+*/
+
 import "fmt"
 
-const minInt32 = -2147483648
-const maxInt32 = 2147483647
+const (
+	maxInt32 = 2147483647
+	minInt32 = -2147483648
+)
 
 func reverse(x int) int {
 	if x == 0 {
@@ -15,24 +32,24 @@ func reverse(x int) int {
 	for x != 0 {
 		digit := int32(x % 10)
 
-		if x > 0 {
-			if result > maxInt32/10 {
-				return 0
-			}
-			if (result == maxInt32/10) && (digit > maxInt32%10) {
-				return 0
-			}
-		} else {
-			if result < minInt32/10 {
-				return 0
-			}
-			if (result == minInt32/10) && (digit < minInt32%10) {
-				return 0
-			}
+		if result > maxInt32/10 {
+			return 0
+		}
+
+		if (result == maxInt32/10) && (digit > maxInt32%10) {
+			return 0
+		}
+
+		if result < minInt32/10 {
+			return 0
+		}
+
+		if (result == minInt32/10) && (digit < minInt32%10) {
+			return 0
 		}
 
 		result = result*10 + digit
-		x = x / 10
+		x /= 10
 	}
 
 	return int(result)
