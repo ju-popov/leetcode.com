@@ -1,8 +1,22 @@
 package main
 
+/*
+
+6. Zigzag Conversion
+
+https://leetcode.com/problems/zigzag-conversion/
+
+Approach 1: Sort by Row
+
+Complexity Analysis
+
+Time Complexity: O(n), where n == len(s)
+Space Complexity: O(n)
+
+*/
+
 import (
 	"fmt"
-	"strings"
 )
 
 func convert(s string, numRows int) string {
@@ -12,23 +26,29 @@ func convert(s string, numRows int) string {
 
 	rows := make([]string, numRows)
 
-	direction := false
+	goingDown := false
 	row := 0
 
 	for _, char := range s {
 		rows[row] += string(char)
+
 		if (row == 0) || (row == numRows-1) {
-			direction = !direction
+			goingDown = !goingDown
 		}
 
-		if direction {
+		if goingDown {
 			row++
 		} else {
 			row--
 		}
 	}
 
-	return strings.Join(rows, "")
+	result := ""
+	for _, row := range rows {
+		result += row
+	}
+
+	return result
 }
 
 func main() {
