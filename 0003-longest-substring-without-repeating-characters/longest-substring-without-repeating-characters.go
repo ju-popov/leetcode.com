@@ -49,7 +49,9 @@ func lengthOfLongestSubstring(s string) int {
 		if visited[char] {
 			for {
 				left++
+
 				visited[s[left]] = false
+
 				if s[left] == char {
 					break
 				}
