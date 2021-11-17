@@ -30,13 +30,6 @@ func (head *ListNode) String() string {
 	return buf.String()
 }
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	if k <= 1 {
 		return head

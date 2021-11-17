@@ -30,13 +30,6 @@ func (head *ListNode) String() string {
 	return buf.String()
 }
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func swapPairs(head *ListNode) *ListNode {
 	const k = 2 // Whap is pairs
 
