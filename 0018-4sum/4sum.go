@@ -1,5 +1,24 @@
 package main
 
+/*
+
+18. 4Sum
+
+https://leetcode.com/problems/4sum/
+
+Approach 1: Two Pointers
+
+Complexity Analysis
+
+Time Complexity: O(n^{k-1}), or O(n^3) for 4Sum.
+
+Note that for k > 2, sorting the array does not change the overall time
+complexity.
+
+Space Complexity: O(n).
+
+*/
+
 import (
 	"fmt"
 	"sort"
@@ -26,6 +45,7 @@ func fourSum(nums []int, target int) [][]int {
 			for left < right {
 				if (left != index2+1) && (nums[left] == nums[left-1]) {
 					left++
+
 					continue
 				}
 
@@ -37,6 +57,7 @@ func fourSum(nums []int, target int) [][]int {
 
 				if sum > target {
 					right--
+
 					continue
 				}
 
