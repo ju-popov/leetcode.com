@@ -15,7 +15,7 @@ var digitsMap = map[byte][]string{
 
 func letterCombinations(digits string) []string {
 	results := make([]string, 0)
-	if len(digits) <= 0 {
+	if len(digits) == 0 {
 		return results
 	}
 
