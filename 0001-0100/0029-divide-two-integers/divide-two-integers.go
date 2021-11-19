@@ -2,8 +2,10 @@ package main
 
 import "fmt"
 
-const maxInt32 = 2147483647
-const minInt32 = -2147483648
+const (
+	maxInt32 = 2147483647
+	minInt32 = -2147483648
+)
 
 func abs(value int) int {
 	if value >= 0 {

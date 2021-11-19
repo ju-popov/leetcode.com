@@ -36,6 +36,7 @@ func reverseKGroup(head *ListNode, k int) *ListNode {
 	}
 
 	var prev *ListNode
+
 	current := head
 	nodes := make([]*ListNode, k)
 

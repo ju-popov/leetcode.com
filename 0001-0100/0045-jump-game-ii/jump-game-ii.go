@@ -22,6 +22,7 @@ func jumpHelper(nums []int, pos int, memory map[int]int) int {
 	}
 
 	minResult := -1
+
 	for index := 1; (index <= nums[pos]) && (pos+index < len(nums)); index++ {
 		if result := jumpHelper(nums, pos+index, memory); result != -1 {
 			if (minResult == -1) || (result < minResult) {
@@ -36,7 +37,7 @@ func jumpHelper(nums []int, pos int, memory map[int]int) int {
 }
 
 func jump(nums []int) int {
-	memory := make(map[int]int, 0)
+	memory := make(map[int]int)
 
 	return jumpHelper(nums, 0, memory)
 }

@@ -34,6 +34,7 @@ func swapPairs(head *ListNode) *ListNode {
 	const k = 2 // Whap is pairs
 
 	var prev *ListNode
+
 	current := head
 	nodes := make([]*ListNode, k)
 

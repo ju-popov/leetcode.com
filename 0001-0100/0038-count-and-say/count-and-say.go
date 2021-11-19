@@ -17,6 +17,7 @@ func countAndSayHelper(input string) string {
 
 	count := 0
 	result := ""
+
 	var lastChar byte
 
 	for index := 0; index < len(input); index++ {
@@ -25,11 +26,13 @@ func countAndSayHelper(input string) string {
 		if index == 0 {
 			lastChar = char
 			count = 1
+
 			continue
 		}
 
 		if char == lastChar {
 			count++
+
 			continue
 		}
 

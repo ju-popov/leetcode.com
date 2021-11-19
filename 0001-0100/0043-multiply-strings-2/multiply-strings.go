@@ -33,7 +33,7 @@ func multiply(num1 string, num2 string) string {
 		result[index] = '0'
 	}
 
-	// Multipy numbers
+	// Multiply numbers
 	for index2 := len(num2) - 1; index2 >= 0; index2-- {
 		for index1 := len(num1) - 1; index1 >= 0; index1-- {
 			n1 := num1[index1] - '0'

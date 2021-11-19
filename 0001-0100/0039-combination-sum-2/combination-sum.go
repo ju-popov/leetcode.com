@@ -27,6 +27,7 @@ func combinationSumHelper(candidates []int, target int, candidateIndex int, curr
 
 		if candidate == target {
 			results = append(results, newCurrent)
+
 			continue
 		}
 

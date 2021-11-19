@@ -26,12 +26,12 @@ func combinationSumHelper(candidates []int, target int, candidateIndex int) [][]
 
 		if candidate == target {
 			results = append(results, current)
+
 			continue
 		}
 
 		for _, subSolution := range combinationSumHelper(candidates, target-candidate, index) {
-			solution := append(current, subSolution...)
-			results = append(results, solution)
+			results = append(results, append(current, subSolution...))
 		}
 	}
 

@@ -32,6 +32,7 @@ func (head *ListNode) String() string {
 
 func nextNode(lists []*ListNode) (*ListNode, int) {
 	var minListNode *ListNode
+
 	minIndex := 0
 
 	for index, list := range lists {

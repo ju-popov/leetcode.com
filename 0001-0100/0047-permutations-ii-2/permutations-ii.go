@@ -18,6 +18,7 @@ func permuteUniqueHelper(nums []int) [][]int {
 
 	if len(nums) == 0 {
 		results = append(results, []int{})
+
 		return results
 	}
 

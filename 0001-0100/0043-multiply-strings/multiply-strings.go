@@ -12,6 +12,7 @@ https://leetcode.com/problems/multiply-strings/
 
 func addition(num1 string, num2 string) string {
 	var carry byte
+
 	indexNum1 := len(num1) - 1
 	indexNum2 := len(num2) - 1
 	result := ""
@@ -42,6 +43,7 @@ func multipyByByte(num1 string, num2 byte, rightPadding int) string {
 	result := ""
 
 	var carry byte
+
 	indexNum1 := len(num1) - 1
 
 	for (carry != 0) || (indexNum1 >= 0) {

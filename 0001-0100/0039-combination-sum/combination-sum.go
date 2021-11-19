@@ -17,10 +17,10 @@ type memoryKey struct {
 	target         int
 }
 
-func combineSolution(candidate int, quantitiy int, add []int) []int {
+func combineSolution(candidate int, quantity int, add []int) []int {
 	result := make([]int, 0)
 
-	for index := 0; index < quantitiy; index++ {
+	for index := 0; index < quantity; index++ {
 		result = append(result, candidate)
 	}
 
@@ -50,6 +50,7 @@ func combinationSumHelper(candidates []int, candidateIndex int, target int, memo
 
 		if remaining == 0 {
 			result = append(result, combineSolution(candidate, quantity, nil))
+
 			continue
 		}
 

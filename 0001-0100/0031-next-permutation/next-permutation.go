@@ -6,7 +6,8 @@ import "fmt"
 
 func nextPermutation(nums []int) []int {
 	// Swap Left Value
-	swapLeftIndex := -1
+	var swapLeftIndex int
+
 	for swapLeftIndex = len(nums) - 2; swapLeftIndex >= 0; swapLeftIndex-- {
 		if nums[swapLeftIndex] < nums[swapLeftIndex+1] {
 			break
@@ -31,6 +32,7 @@ func nextPermutation(nums []int) []int {
 	// Reverse the rest (sort ascending)
 	start := swapLeftIndex + 1
 	end := len(nums) - 1
+
 	for start < end {
 		nums[start], nums[end] = nums[end], nums[start]
 		start++
