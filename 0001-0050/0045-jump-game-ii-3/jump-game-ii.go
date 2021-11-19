@@ -11,35 +11,35 @@ https://leetcode.com/problems/jump-game-ii/
 */
 
 func jump(nums []int) int {
-	currentPos := 0
-	result := 0
-
 	if len(nums) <= 1 {
 		return 0
 	}
 
+	pos := 0
+	result := 0
+
 	for {
-		if nums[currentPos] == 0 {
+		if nums[pos] == 0 {
 			return -1
 		}
 
 		totalMaxRich := 0
 		nextPos := 0
 
-		for step := 1; step <= nums[currentPos]; step++ {
-			if currentPos+step == len(nums)-1 {
+		for step := 1; step <= nums[pos]; step++ {
+			if pos+step == len(nums)-1 {
 				return result + 1
 			}
 
-			maxRich := nums[currentPos+step] + step
+			maxRich := nums[pos+step] + step
 
 			if maxRich > totalMaxRich {
 				totalMaxRich = maxRich
-				nextPos = currentPos + step
+				nextPos = pos + step
 			}
 		}
 
-		currentPos = nextPos
+		pos = nextPos
 		result++
 	}
 }
