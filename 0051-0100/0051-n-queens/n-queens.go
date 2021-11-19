@@ -107,6 +107,6 @@ func solveNQueens(n int) [][]string {
 }
 
 func main() {
-	fmt.Println(solveNQueens(4))
-	fmt.Println(solveNQueens(1))
+	fmt.Println(solveNQueens(4)) // [[.Q.. ...Q Q... ..Q.] [..Q. Q... ...Q .Q..]]
+	fmt.Println(solveNQueens(1)) // [[Q]]
 }
