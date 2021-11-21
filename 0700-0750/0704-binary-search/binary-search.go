@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/binary-search/
 
+#array #binary-search
+
 */
 
 func search(nums []int, target int) int {
@@ -16,12 +18,13 @@ func search(nums []int, target int) int {
 
 	for left <= right {
 		mid := left + (right-left)/2
+		value := nums[mid]
 
-		if nums[mid] == target {
+		if value == target {
 			return mid
 		}
 
-		if nums[mid] < target {
+		if value < target {
 			left = mid + 1
 		} else {
 			right = mid - 1

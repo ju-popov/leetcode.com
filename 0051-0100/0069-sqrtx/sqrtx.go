@@ -8,33 +8,34 @@ import "fmt"
 
 https://leetcode.com/problems/sqrtx/
 
+#math #binary-search
+
 */
 
 func mySqrt(x int) int {
-	if (x == 0) || (x == 1) {
+	if x < 2 {
 		return x
 	}
 
-	left := 0
-	right := x
+	left := 1
+	right := x / 2
 
-	for right-left > 1 {
+	for left <= right {
 		mid := left + (right-left)/2
-
 		value := mid * mid
 
 		if value == x {
 			return mid
 		}
 
-		if mid*mid > x {
-			right = mid
+		if value > x {
+			right = mid - 1
 		} else {
-			left = mid
+			left = mid + 1
 		}
 	}
 
-	return left
+	return right
 }
 
 func main() {
