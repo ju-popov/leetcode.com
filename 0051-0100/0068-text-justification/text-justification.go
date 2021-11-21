@@ -59,14 +59,14 @@ func generateRow(words []string, maxWidth int, lastRow bool) string {
 	for index, word := range words {
 		result += word
 		totalWordsWidth -= len(word)
-		extraspace := maxWidth - len(result) - totalWordsWidth
+		extraSpace := maxWidth - len(result) - totalWordsWidth
 		wordsLeft := len(words) - index - 1
 
 		if wordsLeft == 0 {
 			result += strings.Repeat(" ", maxWidth-len(result))
 		} else {
-			result += strings.Repeat(" ", extraspace/wordsLeft)
-			if extraspace%wordsLeft != 0 {
+			result += strings.Repeat(" ", extraSpace/wordsLeft)
+			if extraSpace%wordsLeft != 0 {
 				result += " "
 			}
 		}
