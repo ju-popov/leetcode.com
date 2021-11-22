@@ -23,6 +23,7 @@ Solving [leetcode.com](https://leetcode.com/) data structures & algorithms progr
 |   73 |[Set Matrix Zeroes][set-matrix-zeroes]                                                           | Medium     | #array #hash-table #matrix              |
 |   74 |[Search a 2D Matrix][search-a-2d-matrix]                                                         | Medium     | #array #binary-search #matrix           |
 |   75 |[Sort Colors][sort-colors]                                                                       | Medium     | #array #two-pointers #sorting           |
+|   77 |[Combinations][combinations]                                                                     | Medium     | #array #backtracking                    |
 
 [two-sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum
 [add-two-numbers]: https://github.com/ju-popov/leetcode.com/tree/main/problems/add-two-numbers
@@ -38,3 +39,4 @@ Solving [leetcode.com](https://leetcode.com/) data structures & algorithms progr
 [set-matrix-zeroes]: https://github.com/ju-popov/leetcode.com/tree/main/problems/set-matrix-zeroes
 [search-a-2d-matrix]: https://github.com/ju-popov/leetcode.com/tree/main/problems/search-a-2d-matrix
 [sort-colors]: https://github.com/ju-popov/leetcode.com/tree/main/problems/sort-colors
+[combinations]: https://github.com/ju-popov/leetcode.com/tree/main/problems/combinations
