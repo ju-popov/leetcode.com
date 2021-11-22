@@ -2,7 +2,8 @@
 
 **Difficulty**: Medium
 
-**Related Topics**:
+## Related Topics:
+
 -  [Linked List](https://leetcode.com/tag/linked-list/)
 -  [Math](https://leetcode.com/tag/math/)
 -  [Recursion](https://leetcode.com/tag/recursion/)

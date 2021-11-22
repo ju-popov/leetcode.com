@@ -2,7 +2,8 @@
 
 **Difficulty**: Medium
 
-**Related Topics**:
+## Related Topics:
+
 - [Array](https://leetcode.com/tag/array/)
 - [Two Pointers](https://leetcode.com/tag/two-pointers/)
 - [Sorting](https://leetcode.com/tag/sorting/)

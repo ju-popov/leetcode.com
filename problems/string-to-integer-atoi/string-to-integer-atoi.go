@@ -6,6 +6,8 @@ package main
 
 https://leetcode.com/problems/string-to-integer-atoi/
 
+#string
+
 */
 
 import "fmt"

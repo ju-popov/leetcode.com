@@ -2,7 +2,8 @@
 
 **Difficulty**: Easy
 
-**Related Topics**:
+## Related Topics:
+
 - [Math](https://leetcode.com/tag/math/)
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/)
 - [Memoization](https://leetcode.com/tag/memoization/)

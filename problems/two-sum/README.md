@@ -2,7 +2,8 @@
 
 **Difficulty**: Easy
 
-**Related Topics**:
+## Related Topics:
+
 * [Array](https://leetcode.com/tag/array/)
 * [Hash Table](https://leetcode.com/tag/hash-table/)
 

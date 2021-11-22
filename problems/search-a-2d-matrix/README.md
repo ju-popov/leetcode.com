@@ -2,7 +2,8 @@
 
 **Difficulty**: Medium
 
-**Related Topics**:
+## Related Topics:
+
 - [Array](https://leetcode.com/tag/array/)
 - [Binary Search](https://leetcode.com/tag/binary-search/)
 - [Matrix](https://leetcode.com/tag/matrix/)

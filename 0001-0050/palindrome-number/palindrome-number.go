@@ -6,14 +6,7 @@ package main
 
 https://leetcode.com/problems/palindrome-number/
 
-Approach 1: Revert half of the number
-
-Complexity Analysis
-
-Time complexity : O(log10(n)). We divided the input by 10 for every iteration,
-so the time complexity is O(log10(n))
-​
-Space complexity : O(1).
+#math
 
 */
 
