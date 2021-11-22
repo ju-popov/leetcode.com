@@ -14,4 +14,4 @@ Solving [leetcode.com](https://leetcode.com/) data structures & algorithms progr
 | - | ----------------- | ---------- | ------------------ |
 | 1 |[Two Sum](two-sum) | Easy       | #array #hash-table |
 
-[two-sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum
+[two-sum]: https://github.com/ju-popov/leetcode.com/problems/two-sum/
