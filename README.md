@@ -2,7 +2,9 @@
 
 ## Description
 
-Solving [leetcode.com](https://leetcode.com/) data structures & algorithms programming problems in Go
+Solving [LeetCode](https://leetcode.com/) programming problems in Go
+
+## Stats
 
 ![Leetcode Stats](https://leetcode.card.workers.dev/?username=ju-popov&style=auto)
 
