@@ -6,17 +6,7 @@ package main
 
 https://leetcode.com/problems/longest-common-prefix/
 
-Approach 1: Horizontal scanning
-
-Complexity Analysis
-
-Time complexity : O(S) , where S is the sum of all characters in all strings.
-
-In the worst case all n strings are the same. The algorithm compares the string
-S1 with the other strings [S2..SN]. There are S character comparisons, where S
-is the sum of all characters in the input array.
-
-Space complexity : O(1). We only used constant extra space.
+#string
 
 */
 

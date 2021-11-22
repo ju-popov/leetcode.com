@@ -6,13 +6,7 @@ package main
 
 https://leetcode.com/problems/roman-to-integer/
 
-Approach 2: Left-to-Right Pass Improved
-
-Complexity Analysis
-
-Time complexity : O(1).
-
-Space complexity : O(1).
+#hash-table #math #string
 
 */
 

@@ -6,18 +6,7 @@ package main
 
 https://leetcode.com/problems/3sum-closest/
 
-Approach 1: Two Pointers
-
-Complexity Analysis
-
-Time Complexity: {O}(n^2). We have outer and inner loops, each going through n
-elements.
-
-Sorting the array takes {O}(nlog{n}), so overall complexity is
-{O}(nlog{n} + n^2). This is asymptotically equivalent to {O}(n^2).
-
-Space Complexity: from {O}(log{n}) to {O}(n), depending on the implementation of
-the sorting algorithm.
+#array #two-pointers #sorting
 
 */
 

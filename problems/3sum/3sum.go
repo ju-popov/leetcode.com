@@ -6,18 +6,7 @@ package main
 
 https://leetcode.com/problems/3sum/
 
-Approach 1: Two Pointers
-
-Complexity Analysis
-
-Time Complexity: {O}(n^2).
-
-Sorting the array takes {O}(nlog{n}), so overall complexity is
-{O}(nlog{n} + n^2). This is asymptotically equivalent to {O}(n^2).
-
-Space Complexity: from {O}(log{n}) {O}(n), depending on the implementation of
-the sorting algorithm. For the purpose of complexity analysis, we ignore the
-memory required for the output.
+#array #two-pointers #sorting
 
 */
 

@@ -6,6 +6,8 @@ package main
 
 https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
+#hash-table #string #backtracking
+
 */
 
 import "fmt"

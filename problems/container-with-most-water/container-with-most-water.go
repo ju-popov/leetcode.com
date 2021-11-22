@@ -6,13 +6,7 @@ package main
 
 https://leetcode.com/problems/container-with-most-water/
 
-Approach 2: Two Pointer Approach
-
-Complexity Analysis
-
-Time complexity : O(n). Single pass.
-
-Space complexity : O(1). Constant space is used.
+#array #two-pointers #greedy
 
 */
 

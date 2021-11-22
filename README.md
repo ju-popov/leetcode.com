@@ -18,6 +18,16 @@ Solving [leetcode.com](https://leetcode.com/) data structures & algorithms progr
 |    7 |[Reverse Integer][reverse-integer]                                                               | Medium     | #math                                   |
 |    8 |[String to Integer (atoi)][string-to-integer-atoi]                                               | Medium     | #string                                 |
 |    9 |[Palindrome Number][palindrome-number]                                                           | Easy       | #math                                   |
+|   11 |[Container With Most Water][container-with-most-water]                                           | Medium     | #array #two-pointers #greedy            |
+|   12 |[Integer to Roman][integer-to-roman]                                                             | Medium     | #hash-table #math #string               |
+|   13 |[Roman to Integer][roman-to-integer]                                                             | Easy       | #hash-table #math #string               |
+|   14 |[Longest Common Prefix][longest-common-prefix]                                                   | Easy       | #string                                 |
+|   15 |[3Sum][3sum]                                                                                     | Medium     | #array #two-pointers #sorting           |
+|   16 |[3Sum Closest][3sum-closest]                                                                     | Medium     | #array #two-pointers #sorting           |
+|   17 |[Letter Combinations of a Phone Number][letter-combinations-of-a-phone-number]                   | Medium     | #hash-table #string #backtracking       |
+|   18 |[4Sum][4sum]                                                                                     | Medium     | #array #two-pointers #sorting           |
+|   19 |[Remove Nth Node From End of List][remove-nth-node-from-end-of-list]                             | Medium     | #linked-list #two-pointers              |
+|   20 |[Valid Parentheses][valid-parentheses]                                                           | Easy       | #string #stack                          |
 |   70 |[Climbing Stairs][climbing-stairs]                                                               | Easy       | #math #dynamic-programming #memoization |
 |   71 |[Simplify Path][simplify-path]                                                                   | Medium     | #string #stack                          |
 |   73 |[Set Matrix Zeroes][set-matrix-zeroes]                                                           | Medium     | #array #hash-table #matrix              |
@@ -33,6 +43,16 @@ Solving [leetcode.com](https://leetcode.com/) data structures & algorithms progr
 [reverse-integer]: https://github.com/ju-popov/leetcode.com/tree/main/problems/reverse-integer
 [string-to-integer-atoi]: https://github.com/ju-popov/leetcode.com/tree/main/problems/string-to-integer-atoi
 [palindrome-number]: https://github.com/ju-popov/leetcode.com/tree/main/problems/palindrome-number
+[container-with-most-water]: https://github.com/ju-popov/leetcode.com/tree/main/problems/container-with-most-water
+[integer-to-roman]: https://github.com/ju-popov/leetcode.com/tree/main/problems/integer-to-roman
+[roman-to-integer]: https://github.com/ju-popov/leetcode.com/tree/main/problems/roman-to-integer
+[longest-common-prefix]: https://github.com/ju-popov/leetcode.com/tree/main/problems/longest-common-prefix
+[3sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/3sum
+[3sum-closest]: https://github.com/ju-popov/leetcode.com/tree/main/problems/3sum-closest
+[letter-combinations-of-a-phone-number]: https://github.com/ju-popov/leetcode.com/tree/main/problems/letter-combinations-of-a-phone-number
+[4sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/4sum
+[remove-nth-node-from-end-of-list]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-nth-node-from-end-of-list
+[valid-parentheses]: https://github.com/ju-popov/leetcode.com/tree/main/problems/valid-parentheses
 
 [climbing-stairs]: https://github.com/ju-popov/leetcode.com/tree/main/problems/climbing-stairs
 [simplify-path]: https://github.com/ju-popov/leetcode.com/tree/main/problems/simplify-path

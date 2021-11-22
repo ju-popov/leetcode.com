@@ -6,16 +6,7 @@ package main
 
 https://leetcode.com/problems/4sum/
 
-Approach 1: Two Pointers
-
-Complexity Analysis
-
-Time Complexity: O(n^{k-1}), or O(n^3) for 4Sum.
-
-Note that for k > 2, sorting the array does not change the overall time
-complexity.
-
-Space Complexity: O(n).
+#array #two-pointers #sorting
 
 */
 
