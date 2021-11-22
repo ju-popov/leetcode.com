@@ -1,7 +1,5 @@
 # 1. Two Sum
 
-**URL**: https://leetcode.com/problems/two-sum/
-
 **Difficulty**: Easy
 
 **Related Topics**:

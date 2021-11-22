@@ -1,8 +1,10 @@
 # leetcode.com
 
+## Description
+
 Solving [leetcode.com](https://leetcode.com/) data structures & algorithms programming problems in Go
 
----
+## Progress
 
 <img alt="Progress" src="https://github.com/ju-popov/leetcode.com/raw/main/media/progress.png" />
 
@@ -10,8 +12,10 @@ Solving [leetcode.com](https://leetcode.com/) data structures & algorithms progr
 
 ## Problems
 
-| N | Problem           | Difficulty | Topics             |
-| - | ----------------- | ---------- | ------------------ |
-| 1 |[Two Sum][two-sum] | Easy       | #array #hash-table |
+| N | Problem                           | Difficulty | Topics                        |
+| - | --------------------------------- | ---------- | ----------------------------- |
+| 1 |[Two Sum][two-sum]                 | Easy       | #array #hash-table            |
+| 2 |[Add Two Numbers][add-two-numbers] | Medium     | #linked-list #math #recursion |
 
 [two-sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum
+[add-two-numbers]: https://github.com/ju-popov/leetcode.com/tree/main/problems/add-two-numbers

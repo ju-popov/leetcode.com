@@ -11,15 +11,7 @@ import (
 
 https://leetcode.com/problems/add-two-numbers/
 
-Approach 1: Elementary Math
-
-Complexity Analysis
-
-Time complexity : O(max(m,n)). Assume that mm and nn represents the length of
-l1 and l2 respectively, the algorithm above iterates at most max(m,n) times.
-
-Space complexity : O(max(m,n)). The length of the new list is at most
-max(m,n)+1.
+#linked-list #math
 
 */
 
