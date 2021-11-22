@@ -1,6 +1,6 @@
 # 1. Two Sum
 
-**URL**: https://leetcode.com/problems/two-sum/
+**URL**: https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum/
 
 **Difficulty**: Easy
 
@@ -67,14 +67,14 @@ func twoSum(nums []int, target int) []int {
 
 ## Similar Questions:
 
--  [3Sum](https://github.com/ju-popov/leetcode.com/problems/3sum/)
--  [4Sum](https://github.com/ju-popov/leetcode.com/problems/4sum/)
--  [Two Sum II - Input Array Is Sorted](https://github.com/ju-popov/leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
--  [Two Sum III - Data structure design](https://github.com/ju-popov/leetcode.com/problems/two-sum-iii-data-structure-design/)
--  [Subarray Sum Equals K](https://github.com/ju-popov/leetcode.com/problems/subarray-sum-equals-k/)
--  [Two Sum IV - Input is a BST](https://github.com/ju-popov/leetcode.com/problems/two-sum-iv-input-is-a-bst/)
--  [Two Sum Less Than K](https://github.com/ju-popov/leetcode.com/problems/two-sum-less-than-k/)
--  [Max Number of K-Sum Pairs](https://github.com/ju-popov/leetcode.com/problems/max-number-of-k-sum-pairs/)
--  [Count Good Meals](https://github.com/ju-popov/leetcode.com/problems/count-good-meals/)
--  [Count Number of Pairs With Absolute Difference](https://github.com/ju-popov/leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)
--  [Number of Pairs of Strings With Concatenation Equal to Target](https://github.com/ju-popov/leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
+- [3Sum](https://github.com/ju-popov/leetcode.com/tree/main/problems/3sum/)
+- [4Sum](https://github.com/ju-popov/leetcode.com/tree/main/problems/4sum/)
+- [Two Sum II - Input Array Is Sorted](https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum-ii-input-array-is-sorted/)
+- [Two Sum III - Data structure design](https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum-iii-data-structure-design/)
+- [Subarray Sum Equals K](https://github.com/ju-popov/leetcode.com/tree/main/problems/subarray-sum-equals-k/)
+- [Two Sum IV - Input is a BST](https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum-iv-input-is-a-bst/)
+- [Two Sum Less Than K](https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum-less-than-k/)
+- [Max Number of K-Sum Pairs](https://github.com/ju-popov/leetcode.com/tree/main/problems/max-number-of-k-sum-pairs/)
+- [Count Good Meals](https://github.com/ju-popov/leetcode.com/tree/main/problems/count-good-meals/)
+- [Count Number of Pairs With Absolute Difference K](https://github.com/ju-popov/leetcode.com/tree/main/problems/count-number-of-pairs-with-absolute-difference-k/)
+- [Number of Pairs of Strings With Concatenation Equal to Target](https://github.com/ju-popov/leetcode.com/tree/main/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
