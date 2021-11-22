@@ -1,6 +1,7 @@
 # 70. Climbing Stairs
 
 **Difficulty**: Easy
+
 **Related Topics**:
 - [Math](https://leetcode.com/tag/math/)
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/)
