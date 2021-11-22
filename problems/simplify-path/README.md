@@ -5,7 +5,6 @@
 **Related Topics**:
 - [String](https://leetcode.com/tag/string/)
 - [Stack](https://leetcode.com/tag/stack/)
----
 
 ## Problem:
 
