@@ -13,7 +13,7 @@ Solving [leetcode.com](https://leetcode.com/) data structures & algorithms progr
 ## Problems
 
 |    N | Problem                           | Difficulty | Topics                                  |
-| ---- | --------------------------------- | ---------- | --------------------------------------- |
+| ---: | --------------------------------- | :--------: | --------------------------------------- |
 |    1 |[Two Sum][two-sum]                 | Easy       | #array #hash-table                      |
 |    2 |[Add Two Numbers][add-two-numbers] | Medium     | #linked-list #math #recursion           |
 |   70 |[Climbing Stairs][climbing-stairs] | Easy       | #math #dynamic-programming #memoization |
