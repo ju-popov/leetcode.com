@@ -1,10 +1,11 @@
 # 75. Sort Colors
 
-Difficulty: Medium
-Related Topics:
-  "Array": https://leetcode.com/tag/array/
-  "Two Pointers": https://leetcode.com/tag/two-pointers/
-  "Sorting": https://leetcode.com/tag/sorting/
+**Difficulty**: Medium
+
+**Related Topics**:
+- [Array](https://leetcode.com/tag/array/)
+- [Two Pointers](https://leetcode.com/tag/two-pointers/)
+- [Sorting](https://leetcode.com/tag/sorting/)
 
 ## Problem:
 
