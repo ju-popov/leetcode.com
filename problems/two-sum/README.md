@@ -1,6 +1,6 @@
 # 1. Two Sum
 
-**URL**: https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum/
+**URL**: https://leetcode.com/problems/two-sum/
 
 **Difficulty**: Easy
 
