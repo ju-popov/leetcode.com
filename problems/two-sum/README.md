@@ -5,8 +5,8 @@
 **Difficulty**: Easy
 
 **Related Topics**:
-* "Array": https://leetcode.com/tag/array/
-* "Hash Table": https://leetcode.com/tag/hash-table/
+* [Array](https://leetcode.com/tag/array/)
+* [Hash Table](https://leetcode.com/tag/hash-table/)
 
 ## Problem:
 
@@ -71,8 +71,8 @@ func twoSum(nums []int, target int) []int {
 -  [4Sum](https://github.com/ju-popov/leetcode.com/problems/4sum/)
 -  [Two Sum II - Input Array Is Sorted](https://github.com/ju-popov/leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 -  [Two Sum III - Data structure design](https://github.com/ju-popov/leetcode.com/problems/two-sum-iii-data-structure-design/)
--  [Subarray Sum Equals K"](https://github.com/ju-popov/leetcode.com/problems/subarray-sum-equals-k/)
--  [Two Sum IV - Input is a BST"](https://github.com/ju-popov/leetcode.com/problems/two-sum-iv-input-is-a-bst/)
+-  [Subarray Sum Equals K](https://github.com/ju-popov/leetcode.com/problems/subarray-sum-equals-k/)
+-  [Two Sum IV - Input is a BST](https://github.com/ju-popov/leetcode.com/problems/two-sum-iv-input-is-a-bst/)
 -  [Two Sum Less Than K](https://github.com/ju-popov/leetcode.com/problems/two-sum-less-than-k/)
 -  [Max Number of K-Sum Pairs](https://github.com/ju-popov/leetcode.com/problems/max-number-of-k-sum-pairs/)
 -  [Count Good Meals](https://github.com/ju-popov/leetcode.com/problems/count-good-meals/)
