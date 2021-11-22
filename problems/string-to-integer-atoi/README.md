@@ -183,7 +183,8 @@ func myAtoi(s string) int {
 }
 ```
 
-Similar Questions:
-  "Reverse Integer": https://leetcode.com/problems/reverse-integer/
-  "Valid Number": https://leetcode.com/problems/valid-number/
-  "Check if Numbers Are Ascending in a Sentence": https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/
+## Similar Questions:
+
+- [Reverse Integer](https://github.com/ju-popov/leetcode.com/tree/main/problems/reverse-integer/)
+- [Valid Number](https://github.com/ju-popov/leetcode.com/tree/main/problems/valid-number/)
+- [Check if Numbers Are Ascending in a Sentence](https://github.com/ju-popov/leetcode.com/tree/main/problems/check-if-numbers-are-ascending-in-a-sentence/)
