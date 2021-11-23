@@ -102,4 +102,4 @@ func totalNQueens(n int) int {
 
 ## Similar Questions:
 
-- [N-Queens](https://leetcode.com/problems/n-queens/)
+- [N-Queens](https://github.com/ju-popov/leetcode.com/tree/main/problems/n-queens/)
