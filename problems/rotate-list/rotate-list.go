@@ -11,6 +11,8 @@ import (
 
 https://leetcode.com/problems/rotate-list/
 
+#linked-list #two-pointers
+
 */
 
 type ListNode struct {

@@ -11,6 +11,8 @@ import (
 
 https://leetcode.com/problems/text-justification/
 
+#array #string #simulation
+
 */
 
 func nextWords(words []string, maxWidth int, index int) ([]string, int) {

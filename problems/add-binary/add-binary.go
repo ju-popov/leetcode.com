@@ -10,6 +10,8 @@ import (
 
 https://leetcode.com/problems/add-binary/
 
+#math #string #bit-manipulation #simulation
+
 */
 
 func max(a int, b int) int {

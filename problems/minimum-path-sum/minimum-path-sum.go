@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/minimum-path-sum/
 
+#array #dynamic-programming #matrix
+
 */
 
 func minInt(v1 int, v2 int) int {

@@ -8,13 +8,7 @@ import "fmt"
 
 https://leetcode.com/problems/unique-paths/
 
-Approach 1: Dynamic Programming
-
-Complexity Analysis
-
-Time complexity: O(N×M).
-
-Space complexity: O(N×M).
+#math #dynamic-programming #combinatorics
 
 */
 

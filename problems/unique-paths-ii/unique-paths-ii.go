@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/unique-paths-ii/
 
+#array #dynamic-programming #matrix
+
 */
 
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {

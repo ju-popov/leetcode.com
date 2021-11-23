@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/plus-one/
 
+#array #math
+
 */
 
 func plusOne(digits []int) []int {

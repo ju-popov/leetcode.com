@@ -40,7 +40,14 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 |   57 |[Insert Interval][insert-interval]                                                               | Medium     | #array                                          |
 |   58 |[Length of Last Word][length-of-last-word]                                                       | Easy       | #string                                         |
 |   59 |[Spiral Matrix II][spiral-matrix-ii]                                                             | Medium     | #array #matrix #simulation                      |
-|  ... |...                                                                                              | ...        |                                                 |
+|   61 |[Rotate List][rotate-list]                                                                       | Medium     | #linked-list #two-pointers                      |
+|   62 |[Unique Paths][unique-paths]                                                                     | Medium     | #math #dynamic-programming #combinatorics       |
+|   63 |[Unique Paths II][unique-paths-ii]                                                               | Medium     | #array #dynamic-programming #matrix             |
+|   64 |[Minimum Path Sum][minimum-path-sum]                                                             | Medium     | #array #dynamic-programming #matrix             |
+|   66 |[Plus One][plus-one]                                                                             | Easy       | #array #math                                    |
+|   67 |[Add Binary][add-binary]                                                                         | Easy       | #math #string #bit-manipulation #simulation     |
+|   68 |[Text Justification][text-justification]                                                         | Hard       | #array #string #simulation                      |
+|   69 |[Sqrt(x)][sqrtx]                                                                                 | Easy       | #math #binary-search                            |
 |   70 |[Climbing Stairs][climbing-stairs]                                                               | Easy       | #math #dynamic-programming #memoization         |
 |   71 |[Simplify Path][simplify-path]                                                                   | Medium     | #string #stack                                  |
 |   73 |[Set Matrix Zeroes][set-matrix-zeroes]                                                           | Medium     | #array #hash-table #matrix                      |
@@ -86,7 +93,14 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [insert-interval]: https://github.com/ju-popov/leetcode.com/tree/main/problems/insert-interval
 [length-of-last-word]: https://github.com/ju-popov/leetcode.com/tree/main/problems/length-of-last-word
 [spiral-matrix-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/spiral-matrix-ii
-
+[rotate-list]: https://github.com/ju-popov/leetcode.com/tree/main/problems/rotate-list
+[unique-paths]: https://github.com/ju-popov/leetcode.com/tree/main/problems/unique-paths
+[unique-paths-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/unique-paths-ii
+[minimum-path-sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/minimum-path-sum
+[plus-one]: https://github.com/ju-popov/leetcode.com/tree/main/problems/plus-one
+[add-binary]: https://github.com/ju-popov/leetcode.com/tree/main/problems/add-binary
+[text-justification]: https://github.com/ju-popov/leetcode.com/tree/main/problems/text-justification
+[sqrtx]: https://github.com/ju-popov/leetcode.com/tree/main/problems/sqrtx
 [climbing-stairs]: https://github.com/ju-popov/leetcode.com/tree/main/problems/climbing-stairs
 [simplify-path]: https://github.com/ju-popov/leetcode.com/tree/main/problems/simplify-path
 [set-matrix-zeroes]: https://github.com/ju-popov/leetcode.com/tree/main/problems/set-matrix-zeroes
