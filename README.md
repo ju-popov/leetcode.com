@@ -55,6 +55,7 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 |   75 |[Sort Colors][sort-colors]                                                                       | Medium     | #array #two-pointers #sorting                   |
 |   77 |[Combinations][combinations]                                                                     | Medium     | #array #backtracking                            |
 |   78 |[Subsets][subsets]                                                                               | Medium     | #array #backtracking #bit-manipulation          |
+|   79 |[Word Search][word-search]                                                                       | Medium     | #array #backtracking #matrix                    |
 |  ... |...                                                                                              | ...        |                                                 |
 |  153 |[Find Minimum in Rotated Sorted Array][find-minimum-in-rotated-sorted-array]                     | Medium     | #array #binary-search                           |
 |  162 |[Find Peak Element][find-peak-element]                                                           | Medium     | #array #binary-search                           |
@@ -108,6 +109,7 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [sort-colors]: https://github.com/ju-popov/leetcode.com/tree/main/problems/sort-colors
 [combinations]: https://github.com/ju-popov/leetcode.com/tree/main/problems/combinations
 [subsets]: https://github.com/ju-popov/leetcode.com/tree/main/problems/subsets
+[word-search]: https://github.com/ju-popov/leetcode.com/tree/main/problems/word-search
 
 [find-minimum-in-rotated-sorted-array]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-minimum-in-rotated-sorted-array
 [find-peak-element]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-peak-element
