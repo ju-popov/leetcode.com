@@ -136,5 +136,5 @@ func solveNQueens(n int) [][]string {
 
 ## Similar Questions:
 
-- [N-Queens II](https://leetcode.com/problems/n-queens-ii/)
-- [Grid Illumination](https://leetcode.com/problems/grid-illumination/)
+- [N-Queens II](https://github.com/ju-popov/leetcode.com/tree/main/problems/n-queens-ii/)
+- [Grid Illumination](https://github.com/ju-popov/leetcode.com/tree/main/problems/grid-illumination/)

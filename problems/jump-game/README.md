@@ -53,6 +53,6 @@ func canJump(nums []int) bool {
 
 ## Similar Questions:
 
-- [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
-- [Jump Game III](https://leetcode.com/problems/jump-game-iii/)
-- [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)
+- [Jump Game II](https://github.com/ju-popov/leetcode.com/tree/main/problems/jump-game-ii/)
+- [Jump Game III](https://github.com/ju-popov/leetcode.com/tree/main/problems/jump-game-iii/)
+- [Jump Game VII](https://github.com/ju-popov/leetcode.com/tree/main/problems/jump-game-vii/)
