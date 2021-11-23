@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/spiral-matrix/
 
+#array #matrix #simulation
+
 */
 
 func spiralOrder(matrix [][]int) []int {

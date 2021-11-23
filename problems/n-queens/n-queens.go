@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/n-queens/
 
+#array #backtracking
+
 */
 
 func solution(n int, queens [][2]int) []string {

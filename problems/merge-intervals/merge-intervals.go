@@ -11,6 +11,8 @@ import (
 
 https://leetcode.com/problems/merge-intervals/
 
+#array #sorting
+
 */
 
 func minInt(v1 int, v2 int) int {

@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/maximum-subarray/
 
+#array #divide-and-conquer #dynamic-programming
+
 */
 
 func maxSubArray(nums []int) int {

@@ -1,15 +1,38 @@
-package main
+# 59. Spiral Matrix II
 
-import "fmt"
+**Difficulty**: Medium
 
-/*
+## Related Topics:
 
-59. Spiral Matrix II
+- [Array](https://leetcode.com/tag/array/)
+- [Matrix](https://leetcode.com/tag/matrix/)
+- [Simulation](https://leetcode.com/tag/simulation/)
 
-https://leetcode.com/problems/spiral-matrix-ii/
+## Problem:
 
-*/
+Given a positive integer `n`, generate an `n x n` `matrix` filled with elements from `1` to `n2` in spiral order.
 
+**Example 1:**
+
+```
+Input: n = 3
+Output: [[1,2,3],[8,9,4],[7,6,5]]
+```
+
+**Example 2:**
+
+```
+Input: n = 1
+Output: [[1]]
+```
+
+**Constraints:**
+
+- `1 <= n <= 20`
+
+## Solution:
+
+```go
 func generateMatrix(n int) [][]int {
 	result := make([][]int, n)
 	for i := 0; i < n; i++ {
@@ -63,10 +86,9 @@ func generateMatrix(n int) [][]int {
 
 	return result
 }
+```
 
-func main() {
-	fmt.Println(generateMatrix(1)) // [[1]]
-	fmt.Println(generateMatrix(2)) // [[1 2] [4 3]]
-	fmt.Println(generateMatrix(3)) // [[1 2 3] [8 9 4] [7 6 5]]
-	fmt.Println(generateMatrix(4)) // [[1 2 3 4] [12 13 14 5] [11 16 15 6] [10 9 8 7]]
-}
+## Similar Questions:
+  
+- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)

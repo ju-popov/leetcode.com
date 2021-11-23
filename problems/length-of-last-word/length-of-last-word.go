@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/length-of-last-word/
 
+#string
+
 */
 
 func lengthOfLastWord(s string) int {

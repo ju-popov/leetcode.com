@@ -4,9 +4,11 @@ import "fmt"
 
 /*
 
-	52. N-Queens II
+52. N-Queens II
 
-	https://leetcode.com/problems/n-queens-ii/
+https://leetcode.com/problems/n-queens-ii/
+
+#backtracking
 
 */
 

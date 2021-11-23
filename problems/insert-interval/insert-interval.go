@@ -10,6 +10,8 @@ import (
 
 https://leetcode.com/problems/insert-interval/
 
+#array
+
 */
 
 func minInt(n1 int, n2 int) int {
