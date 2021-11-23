@@ -8,7 +8,7 @@ import "fmt"
 
 https://leetcode.com/problems/guess-number-higher-or-lower/
 
-#binary-search #iteractive
+#binary-search #interactive
 
 */
 

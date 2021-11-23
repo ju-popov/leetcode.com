@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/hamming-distance/
 
+#bit-manipulation
+
 */
 
 func hammingDistance(x int, y int) int {

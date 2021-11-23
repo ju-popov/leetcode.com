@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
+#array #binary-search
+
 */
 
 func findMin(nums []int) int {

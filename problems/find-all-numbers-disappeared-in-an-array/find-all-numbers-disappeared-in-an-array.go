@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 
+#array #hash-table
+
 */
 
 func findDisappearedNumbers(nums []int) []int {

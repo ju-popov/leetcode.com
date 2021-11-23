@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/single-element-in-a-sorted-array/
 
+#array #binary-search
+
 */
 
 func singleNonDuplicate(nums []int) int {
