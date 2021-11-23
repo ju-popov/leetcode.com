@@ -56,5 +56,5 @@ func hammingDistance(x int, y int) int {
 
 ## Similar Questions:
 
-- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-- [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)
+- [Number of 1 Bits](https://github.com/ju-popov/leetcode.com/tree/main/problems/number-of-1-bits/)
+- [Total Hamming Distance](https://github.com/ju-popov/leetcode.com/tree/main/problems/total-hamming-distance/)

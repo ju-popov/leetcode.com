@@ -90,5 +90,5 @@ func generateMatrix(n int) [][]int {
 
 ## Similar Questions:
   
-- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)
+- [Spiral Matrix](https://github.com/ju-popov/leetcode.com/tree/main/problems/spiral-matrix/)
+- [Spiral Matrix III](https://github.com/ju-popov/leetcode.com/tree/main/problems/spiral-matrix-iii/)
