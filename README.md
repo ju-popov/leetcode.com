@@ -116,6 +116,9 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [find-first-and-last-position-of-element-in-sorted-array]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-first-and-last-position-of-element-in-sorted-array
 [search-insert-position]: https://github.com/ju-popov/leetcode.com/tree/main/problems/search-insert-position
 [valid-sudoku]: https://github.com/ju-popov/leetcode.com/tree/main/problems/valid-sudoku
+[sudoku-solver]: https://github.com/ju-popov/leetcode.com/tree/main/problems/sudoku-solver
+[count-and-say]: https://github.com/ju-popov/leetcode.com/tree/main/problems/count-and-say
+[combination-sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/combination-sum
 [combination-sum-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/combination-sum-ii
 
 [n-queens]: https://github.com/ju-popov/leetcode.com/tree/main/problems/n-queens
