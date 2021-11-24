@@ -2,7 +2,15 @@ package main
 
 import "fmt"
 
-// https://leetcode.com/problems/remove-element/
+/*
+
+27. Remove Element
+
+https://leetcode.com/problems/remove-element/
+
+#array #two-pointers
+
+*/
 
 func removeElement(nums []int, val int) int {
 	result := 0

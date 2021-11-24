@@ -2,7 +2,15 @@ package main
 
 import "fmt"
 
-// https://leetcode.com/problems/implement-strstr/
+/*
+
+28. Implement strStr()
+
+https://leetcode.com/problems/implement-strstr/
+
+#two-pointers #string #string-matching
+
+*/
 
 func isMatch(haystack string, needle string) bool {
 	for index := 0; index < len(needle); index++ {

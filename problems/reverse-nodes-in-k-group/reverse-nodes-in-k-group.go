@@ -5,7 +5,15 @@ import (
 	"fmt"
 )
 
-// https://leetcode.com/problems/swap-nodes-in-pairs/
+/*
+
+25. Reverse Nodes in k-Group
+
+https://leetcode.com/problems/reverse-nodes-in-k-group/
+
+#linked-list #recursion
+
+*/
 
 type ListNode struct {
 	Val  int
@@ -30,8 +38,10 @@ func (head *ListNode) String() string {
 	return buf.String()
 }
 
-func swapPairs(head *ListNode) *ListNode {
-	const k = 2 // Whap is pairs
+func reverseKGroup(head *ListNode, k int) *ListNode {
+	if k <= 1 {
+		return head
+	}
 
 	var prev *ListNode
 
@@ -80,6 +90,25 @@ func main() {
 				Val: 3,
 				Next: &ListNode{
 					Val: 4,
+					Next: &ListNode{
+						Val: 5,
+					},
+				},
+			},
+		},
+	}
+
+	head2 := &ListNode{
+		Val: 1,
+		Next: &ListNode{
+			Val: 2,
+			Next: &ListNode{
+				Val: 3,
+				Next: &ListNode{
+					Val: 4,
+					Next: &ListNode{
+						Val: 5,
+					},
 				},
 			},
 		},
@@ -87,9 +116,26 @@ func main() {
 
 	head3 := &ListNode{
 		Val: 1,
+		Next: &ListNode{
+			Val: 2,
+			Next: &ListNode{
+				Val: 3,
+				Next: &ListNode{
+					Val: 4,
+					Next: &ListNode{
+						Val: 5,
+					},
+				},
+			},
+		},
 	}
 
-	fmt.Println(swapPairs(head1))
-	fmt.Println(swapPairs(nil))
-	fmt.Println(swapPairs(head3))
+	head4 := &ListNode{
+		Val: 1,
+	}
+
+	fmt.Println(reverseKGroup(head1, 2))
+	fmt.Println(reverseKGroup(head2, 3))
+	fmt.Println(reverseKGroup(head3, 1))
+	fmt.Println(reverseKGroup(head4, 1))
 }

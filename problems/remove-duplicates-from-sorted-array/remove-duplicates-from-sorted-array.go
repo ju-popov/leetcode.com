@@ -2,7 +2,15 @@ package main
 
 import "fmt"
 
-// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+/*
+
+26. Remove Duplicates from Sorted Array
+
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+#array #two-pointers
+
+*/
 
 func removeDuplicates(nums []int) int {
 	result := 0

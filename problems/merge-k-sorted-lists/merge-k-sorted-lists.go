@@ -5,7 +5,15 @@ import (
 	"fmt"
 )
 
-// https://leetcode.com/problems/merge-k-sorted-lists/
+/*
+
+23. Merge k Sorted Lists
+
+https://leetcode.com/problems/merge-k-sorted-lists/
+
+#linked-list #divide-and-conquer #heap-priority-queue #merge-sort
+
+*/
 
 type ListNode struct {
 	Val  int

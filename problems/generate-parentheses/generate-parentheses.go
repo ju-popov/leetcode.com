@@ -6,6 +6,8 @@ package main
 
 https://leetcode.com/problems/generate-parentheses/
 
+#string #dynamic-programming #backtracking
+
 */
 
 import (
