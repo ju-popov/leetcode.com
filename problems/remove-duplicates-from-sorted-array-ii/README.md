@@ -72,9 +72,8 @@ func removeDuplicates(nums []int) int {
 
 	left := 1
 	right := len(nums) - 1
-	index := 1
 
-	for index <= right {
+	for index := 1; index <= right; index++ {
 		num := nums[index]
 
 		if num != lastNumber {
@@ -86,7 +85,6 @@ func removeDuplicates(nums []int) int {
 			}
 
 			left++
-			index++
 
 			continue
 		}
@@ -99,12 +97,7 @@ func removeDuplicates(nums []int) int {
 			}
 
 			left++
-			index++
-
-			continue
 		}
-
-		index++
 	}
 
 	return left
