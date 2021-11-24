@@ -12,6 +12,8 @@ import (
 
 https://leetcode.com/problems/group-anagrams/
 
+#hash-table #string #sorting
+
 */
 
 func sortString(str string) string {

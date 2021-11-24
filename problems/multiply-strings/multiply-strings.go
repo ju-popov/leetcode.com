@@ -10,6 +10,8 @@ import (
 
 https://leetcode.com/problems/multiply-strings/
 
+#math #string #simulation
+
 */
 
 func addToResult(result []byte, value byte, offset int) {

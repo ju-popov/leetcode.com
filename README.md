@@ -48,7 +48,13 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 |   38 |[Count and Say][count-and-say]                                                                                     | Medium     | #string                                                           |
 |   39 |[Combination Sum][combination-sum]                                                                                 | Medium     | #array #backtracking                                              |
 |   40 |[Combination Sum II][combination-sum-ii]                                                                           | Medium     | #array #backtracking                                              |
-|  ... |...                                                                                                                | ...        |                                                                   |
+|   43 |[Multiply Strings][multiply-strings]                                                                               | Medium     | #math #string #simulation                                         |
+|   45 |[Jump Game II][jump-game-ii]                                                                                       | Medium     | #array #dynamic-programming #greedy                               |
+|   46 |[Permutations][permutations]                                                                                       | Medium     | #array #backtracking                                              |
+|   47 |[Permutations II][permutations-ii]                                                                                 | Medium     | #array #backtracking                                              |
+|   48 |[Rotate Image][rotate-image]                                                                                       | Medium     | #array #math #matrix                                              |
+|   49 |[Group Anagrams][group-anagrams]                                                                                   | Medium     | #hash-table #string #sorting                                      |
+|   50 |[Pow(x, n)][powx-n]                                                                                                | Medium     | #math #recursion                                                  |
 |   51 |[N-Queens][n-queens]                                                                                               | Hard       | #array #backtracking                                              |
 |   52 |[N-Queens II][n-queens-ii]                                                                                         | Hard       | #backtracking                                                     |
 |   53 |[Maximum Subarray][maximum-subarray]                                                                               | Easy       | #array #divide-and-conquer #dynamic-programming                   |
@@ -83,6 +89,8 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 |  461 |[Hamming Distance][hamming-distance]                                                                               | Easy       | #bit-manipulation                                                 |
 |  540 |[Single Element in a Sorted Array][single-element-in-a-sorted-array]                                               | Medium     | #array #binary-search                                             |
 |  704 |[Binary Search][binary-search]                                                                                     | Easy       | #array #binary-search                                             |
+
+
 
 [two-sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum
 [add-two-numbers]: https://github.com/ju-popov/leetcode.com/tree/main/problems/add-two-numbers
@@ -120,7 +128,12 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [count-and-say]: https://github.com/ju-popov/leetcode.com/tree/main/problems/count-and-say
 [combination-sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/combination-sum
 [combination-sum-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/combination-sum-ii
-
+[multiply-strings]: https://github.com/ju-popov/leetcode.com/tree/main/problems/multiply-strings
+[jump-game-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/jump-game-ii
+[permutations]: https://github.com/ju-popov/leetcode.com/tree/main/problems/permutations
+[permutations-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/permutations-ii
+[rotate-image]: https://github.com/ju-popov/leetcode.com/tree/main/problems/rotate-image
+[powx-n]: https://github.com/ju-popov/leetcode.com/tree/main/problems/powx-n
 [n-queens]: https://github.com/ju-popov/leetcode.com/tree/main/problems/n-queens
 [n-queens-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/n-queens-ii
 [maximum-subarray]: https://github.com/ju-popov/leetcode.com/tree/main/problems/maximum-subarray
@@ -146,6 +159,8 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [combinations]: https://github.com/ju-popov/leetcode.com/tree/main/problems/combinations
 [subsets]: https://github.com/ju-popov/leetcode.com/tree/main/problems/subsets
 [word-search]: https://github.com/ju-popov/leetcode.com/tree/main/problems/word-search
+
+
 
 [find-minimum-in-rotated-sorted-array]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-minimum-in-rotated-sorted-array
 [find-peak-element]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-peak-element

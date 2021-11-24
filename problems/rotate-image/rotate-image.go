@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 /*
 
@@ -10,26 +8,24 @@ import (
 
 https://leetcode.com/problems/rotate-image/
 
+#array #math #matrix
+
 */
 
 func rotate(matrix [][]int) {
 	size := len(matrix)
 
-	for y := 0; y < size/2; y++ {
-		for x := y; x < size-y-1; x++ {
-			topLeftY, topLeftX := y, x
-			topRightY, topRightX := x, size-1-y
-			bottomRightY, bottomRightX := size-1-y, size-1-x
-			bottomLeftY, bottomLeftX := size-1-x, y
+	// Transpose
+	for y := 0; y < size; y++ {
+		for x := y + 1; x < size; x++ {
+			matrix[y][x], matrix[x][y] = matrix[x][y], matrix[y][x]
+		}
+	}
 
-			matrix[topLeftY][topLeftX],
-				matrix[topRightY][topRightX],
-				matrix[bottomRightY][bottomRightX],
-				matrix[bottomLeftY][bottomLeftX] =
-				matrix[bottomLeftY][bottomLeftX],
-				matrix[topLeftY][topLeftX],
-				matrix[topRightY][topRightX],
-				matrix[bottomRightY][bottomRightX]
+	// Inverse
+	for y := 0; y < size; y++ {
+		for x := 0; x < size/2; x++ {
+			matrix[y][x], matrix[y][size-1-x] = matrix[y][size-1-x], matrix[y][x]
 		}
 	}
 }

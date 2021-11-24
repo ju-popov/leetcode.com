@@ -9,7 +9,9 @@ import (
 
 47. Permutations II
 
-https://leetcode.com/problems/permutations/submissions/
+https://leetcode.com/problems/permutations-ii/
+
+#array #backtracking
 
 */
 

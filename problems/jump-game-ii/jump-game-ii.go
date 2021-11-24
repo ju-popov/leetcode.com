@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/jump-game-ii/
 
+#array #dynamic-programming #greedy
+
 */
 
 func jump(nums []int) int {

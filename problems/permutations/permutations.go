@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/permutations/
 
+#array #backtracking
+
 */
 
 func permute(nums []int) [][]int {
@@ -19,11 +21,16 @@ func permute(nums []int) [][]int {
 		return results
 	}
 
-	for _, subResult := range permute(nums[1:]) {
-		for index := 0; index < len(nums); index++ {
-			result := append([]int{}, subResult[:index]...)
-			result = append(result, nums[0])
-			result = append(result, subResult[index:]...)
+	for index := 0; index < len(nums); index++ {
+		removedValue := nums[index]
+
+		newNums := append([]int{}, nums[:index]...)
+		newNums = append(newNums, nums[index+1:]...)
+
+		subResults := permute(newNums)
+
+		for _, subResult := range subResults {
+			result := append([]int{removedValue}, subResult...)
 			results = append(results, result)
 		}
 	}
@@ -32,7 +39,7 @@ func permute(nums []int) [][]int {
 }
 
 func main() {
-	fmt.Println(permute([]int{1, 2, 3})) // [[1 2 3] [2 1 3] [2 3 1] [1 3 2] [3 1 2] [3 2 1]]
+	fmt.Println(permute([]int{1, 2, 3})) // [[1 2 3] [1 3 2] [2 1 3] [2 3 1] [3 1 2] [3 2 1]]
 	fmt.Println(permute([]int{0, 1}))    // [[0 1] [1 0]]
 	fmt.Println(permute([]int{1}))       // [[1]]
 	fmt.Println(permute([]int{}))        // [[]]
