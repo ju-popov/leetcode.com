@@ -11,6 +11,8 @@ import (
 
 https://leetcode.com/problems/combination-sum-ii/
 
+#array #backtracking
+
 */
 
 func combinationSum2Helper(candidates []int, target int, candidateIndex int) [][]int {

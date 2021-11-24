@@ -8,12 +8,12 @@ import "fmt"
 
 https://leetcode.com/problems/valid-sudoku/
 
+#array #hash-table #matrix
+
 */
 
 func isValidArea(board [][]byte, yStart int, yEnd int, xStart int, xEnd int) bool {
 	digits := make(map[byte]bool)
-
-	fmt.Println(xStart, xEnd, yStart, yEnd)
 
 	for y := yStart; y <= yEnd; y++ {
 		row := board[y]

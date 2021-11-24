@@ -10,6 +10,8 @@ import (
 
 https://leetcode.com/problems/combination-sum/
 
+#array #backtracking
+
 */
 
 func combinationSumHelper(candidates []int, target int, candidateIndex int) [][]int {

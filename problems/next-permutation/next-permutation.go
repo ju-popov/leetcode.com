@@ -2,7 +2,15 @@ package main
 
 import "fmt"
 
-// https://leetcode.com/problems/next-permutation/solution/
+/*
+
+31. Next Permutation
+
+https://leetcode.com/problems/next-permutation/
+
+#array #two-pointers
+
+*/
 
 func nextPermutation(nums []int) []int {
 	// Swap Left Value

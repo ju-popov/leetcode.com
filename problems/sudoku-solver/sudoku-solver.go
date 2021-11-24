@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/sudoku-solver/
 
+#array #backtracking #matrix
+
 */
 
 func nextUnknownSquare(board [][]byte) (int, int) {

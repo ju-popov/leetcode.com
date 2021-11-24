@@ -8,13 +8,7 @@ import "fmt"
 
 https://leetcode.com/problems/search-insert-position/
 
-Approach 1: Binary Search
-
-Complexity Analysis
-
-Time complexity : O(logN).
-
-Space complexity : O(1) since it's a constant space solution.
+#array #binary-search
 
 */
 

@@ -8,6 +8,8 @@ import "fmt"
 
 https://leetcode.com/problems/count-and-say/
 
+#string
+
 */
 
 func countAndSayHelper(input string) string {

@@ -10,18 +10,7 @@ import (
 
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
-Approach: Binary Search
-
-Complexity Analysis
-
-Time Complexity: O(logN) considering there are N elements in the array. This is
-because binary search takes logarithmic time to scan an array of N elements.
-Why? Because at each step we discard half of the array we are scanning and
-hence, we're done after a logarithmic number of steps. We simply perform binary
-search twice in this case.
-
-Space Complexity: O(1) since we only use space for a few variables and our
-result array, all of which require constant space.
+#array #binary-search
 
 */
 
