@@ -133,6 +133,7 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [permutations]: https://github.com/ju-popov/leetcode.com/tree/main/problems/permutations
 [permutations-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/permutations-ii
 [rotate-image]: https://github.com/ju-popov/leetcode.com/tree/main/problems/rotate-image
+[group-anagrams]: https://github.com/ju-popov/leetcode.com/tree/main/problems/group-anagrams
 [powx-n]: https://github.com/ju-popov/leetcode.com/tree/main/problems/powx-n
 [n-queens]: https://github.com/ju-popov/leetcode.com/tree/main/problems/n-queens
 [n-queens-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/n-queens-ii
