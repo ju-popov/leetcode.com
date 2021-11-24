@@ -78,6 +78,6 @@ func jump(nums []int) int {
 
 ## Similar Questions:
 
-- [Jump Game](https://leetcode.com/problems/jump-game/)
-- [Jump Game III](https://leetcode.com/problems/jump-game-iii/)
-- [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)
+- [Jump Game](https://github.com/ju-popov/leetcode.com/tree/main/problems/jump-game/)
+- [Jump Game III](https://github.com/ju-popov/leetcode.com/tree/main/problems/jump-game-iii/)
+- [Jump Game VII](https://github.com/ju-popov/leetcode.com/tree/main/problems/jump-game-vii/)
