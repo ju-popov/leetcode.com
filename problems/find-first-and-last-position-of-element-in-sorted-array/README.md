@@ -99,5 +99,5 @@ func searchRange(nums []int, target int) []int {
 
 ## Similar Questions:
 
-- [First Bad Version"](https://github.com/ju-popov/leetcode.com/tree/main/problems/first-bad-version/)
+- [First Bad Version](https://github.com/ju-popov/leetcode.com/tree/main/problems/first-bad-version/)
 - [Plates Between Candles](https://github.com/ju-popov/leetcode.com/tree/main/problems/plates-between-candles/)
