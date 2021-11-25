@@ -81,6 +81,9 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 |   78 |[Subsets][subsets]                                                                                                 | Medium     | #array #backtracking #bit-manipulation                            |
 |   79 |[Word Search][word-search]                                                                                         | Medium     | #array #backtracking #matrix                                      |
 |   80 |[Remove Duplicates from Sorted Array II][remove-duplicates-from-sorted-array-ii]                                   | Medium     | #array #two-pointers                                              |
+|   81 |Search in Rotated Sorted Array II                                                                                  | Medium     |                                                                   |
+|   82 |[Remove Duplicates from Sorted List II][remove-duplicates-from-sorted-list-ii]                                     | Medium     | #linked-list #two-pointers                                        |
+|   83 |[Remove Duplicates from Sorted List][remove-duplicates-from-sorted-list]                                           | Easy       | #linked-list                                                      |
 |  ... |...                                                                                                                | ...        |                                                                   |
 |  153 |[Find Minimum in Rotated Sorted Array][find-minimum-in-rotated-sorted-array]                                       | Medium     | #array #binary-search                                             |
 |  162 |[Find Peak Element][find-peak-element]                                                                             | Medium     | #array #binary-search                                             |
@@ -163,7 +166,8 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [word-search]: https://github.com/ju-popov/leetcode.com/tree/main/problems/word-search
 [remove-duplicates-from-sorted-array-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-duplicates-from-sorted-array-ii
 
-
+[remove-duplicates-from-sorted-list-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-duplicates-from-sorted-list-ii
+[remove-duplicates-from-sorted-list]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-duplicates-from-sorted-list
 
 [find-minimum-in-rotated-sorted-array]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-minimum-in-rotated-sorted-array
 [find-peak-element]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-peak-element
