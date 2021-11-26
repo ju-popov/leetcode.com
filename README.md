@@ -15,11 +15,13 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 |    1 |[Two Sum][two-sum]                                                                                                 | Easy       | #array #hash-table                                                |
 |    2 |[Add Two Numbers][add-two-numbers]                                                                                 | Medium     | #linked-list #math #recursion                                     |
 |    3 |[Longest Substring Without Repeating Characters][longest-substring-without-repeating-characters]                   | Medium     | #hash-table #string #sliding-window                               |
+|    4 |Median of Two Sorted Arrays                                                                                        | Hard       | #array #binary-search #divide-and-conquer                         |
 |    5 |[Longest Palindromic Substring][longest-palindromic-substring]                                                     | Medium     | #string #dynamic-programming                                      |
 |    6 |[Zigzag Conversion][zigzag-conversion]                                                                             | Medium     | #string                                                           |
 |    7 |[Reverse Integer][reverse-integer]                                                                                 | Medium     | #math                                                             |
 |    8 |[String to Integer (atoi)][string-to-integer-atoi]                                                                 | Medium     | #string                                                           |
 |    9 |[Palindrome Number][palindrome-number]                                                                             | Easy       | #math                                                             |
+|   10 |[Regular Expression Matching][regular-expression-matching]                                                         | Hard       | #string #dynamic-programming #recursion                           |
 |   11 |[Container With Most Water][container-with-most-water]                                                             | Medium     | #array #two-pointers #greedy                                      |
 |   12 |[Integer to Roman][integer-to-roman]                                                                               | Medium     | #hash-table #math #string                                         |
 |   13 |[Roman to Integer][roman-to-integer]                                                                               | Easy       | #hash-table #math #string                                         |
@@ -104,6 +106,7 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [reverse-integer]: https://github.com/ju-popov/leetcode.com/tree/main/problems/reverse-integer
 [string-to-integer-atoi]: https://github.com/ju-popov/leetcode.com/tree/main/problems/string-to-integer-atoi
 [palindrome-number]: https://github.com/ju-popov/leetcode.com/tree/main/problems/palindrome-number
+[regular-expression-matching]: https://github.com/ju-popov/leetcode.com/tree/main/problems/regular-expression-matching
 [container-with-most-water]: https://github.com/ju-popov/leetcode.com/tree/main/problems/container-with-most-water
 [integer-to-roman]: https://github.com/ju-popov/leetcode.com/tree/main/problems/integer-to-roman
 [roman-to-integer]: https://github.com/ju-popov/leetcode.com/tree/main/problems/roman-to-integer
@@ -165,7 +168,6 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [subsets]: https://github.com/ju-popov/leetcode.com/tree/main/problems/subsets
 [word-search]: https://github.com/ju-popov/leetcode.com/tree/main/problems/word-search
 [remove-duplicates-from-sorted-array-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-duplicates-from-sorted-array-ii
-
 [remove-duplicates-from-sorted-list-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-duplicates-from-sorted-list-ii
 [remove-duplicates-from-sorted-list]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-duplicates-from-sorted-list
 
