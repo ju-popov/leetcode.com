@@ -10,7 +10,7 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 
 ## Problems
 
-|    N | Problem                                                                                         | Difficulty | Topics                                                            |
+|    N | Problem                                                                                                           | Difficulty | Topics                                                            |
 | ---: | ----------------------------------------------------------------------------------------------------------------- | :--------: | ----------------------------------------------------------------- |
 |    1 |[Two Sum][two-sum]                                                                                                 | Easy       | #array #hash-table                                                |
 |    2 |[Add Two Numbers][add-two-numbers]                                                                                 | Medium     | #linked-list #math #recursion                                     |
@@ -182,6 +182,8 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [remove-duplicates-from-sorted-list-ii]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-duplicates-from-sorted-list-ii
 [remove-duplicates-from-sorted-list]: https://github.com/ju-popov/leetcode.com/tree/main/problems/remove-duplicates-from-sorted-list
 
+
+
 [find-minimum-in-rotated-sorted-array]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-minimum-in-rotated-sorted-array
 [find-peak-element]: https://github.com/ju-popov/leetcode.com/tree/main/problems/find-peak-element
 [first-bad-version]: https://github.com/ju-popov/leetcode.com/tree/main/problems/first-bad-version
@@ -190,3 +192,6 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 [hamming-distance]: https://github.com/ju-popov/leetcode.com/tree/main/problems/hamming-distance
 [single-element-in-a-sorted-array]: https://github.com/ju-popov/leetcode.com/tree/main/problems/single-element-in-a-sorted-array
 [binary-search]: https://github.com/ju-popov/leetcode.com/tree/main/problems/binary-search
+
+
+
